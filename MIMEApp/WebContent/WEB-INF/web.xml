@@ -8,4 +8,13 @@
  <servlet-name>html</servlet-name>
  <url-pattern>/hturl</url-pattern>
  </servlet-mapping>
+ 
+ <servlet>
+ <servlet-name>word</servlet-name>
+ <servlet-class>com.sa.WordServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>word</servlet-name>
+ <url-pattern>/wdurl</url-pattern>
+ </servlet-mapping>
 </web-app>
