@@ -17,4 +17,23 @@
  <servlet-name>word</servlet-name>
  <url-pattern>/wdurl</url-pattern>
  </servlet-mapping>
+ 
+ <servlet>
+ <servlet-name>xml</servlet-name>
+ <servlet-class>com.sa.XmlServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>xml</servlet-name>
+ <url-pattern>/xmlurl</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ <servlet-name>excel</servlet-name>
+ <servlet-class>com.sa.ExcelServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>excel</servlet-name>
+ <url-pattern>/excelurl</url-pattern>
+ </servlet-mapping>
+ 
 </web-app>
