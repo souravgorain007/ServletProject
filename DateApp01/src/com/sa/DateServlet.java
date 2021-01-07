@@ -10,19 +10,19 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
 public class DateServlet extends GenericServlet {
-
-	public void service(ServletRequest req, ServletResponse res) throws ServletException,IOException {
+	
+	public void service(ServletRequest req , ServletResponse res) throws ServletException,IOException{
 		
-		//set content type
+		//set Content Type
 		res.setContentType("text/html");
 		//PrintWriter Object
 		PrintWriter pw=res.getWriter();
-		//write response
+		//Date Object
 		Date d=new Date();
-		pw.println("<b><i><center> Date and Time "+ d +"<center><i><b>");
-		//close PrintWriter
+		pw.println("<b><i><center> Date and Time: "+d+"</center></i></b>");
+		//close connection
 		pw.close();
 		
 	}//service
-}//class
 
+}//class
