@@ -1,0 +1,61 @@
+<h1 style="color:red"><center>Form Application</center></h1>
+<form action="frmurl" method="post">
+<table border="1">
+<tr>
+<td>Name</td>
+<td><input type= "text" name="name" value="Name"></td>
+</tr>
+<tr>
+<td>Age</td>
+<td><input type="password" name="age" value=""></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td><input type="radio" name="gen" value="M" checked="checked">Male
+    <input type="radio" name="gen" value="F">FeMale
+    </td>
+</tr>
+<tr>
+<td>Address:</td>
+<td>
+<textarea name="taddress" rows="4" cols="20">
+enter address
+</textarea>
+</td>
+</tr>
+<tr>
+<td>Marital Status</td>
+<td><intput type="checkbox" name="ms" value="married" checked>Married
+    <input type="checkbox" name="ms" value="single">Single
+    </td>
+</tr>
+<tr>
+<td>Qualification</td>
+<td><select name="qulfy">
+    <option value="B.Tech">Engg</option>
+    <option name="MBBS">Medical</option>
+    <option name="BA">Arts</option>
+</select></td>
+</tr>
+<tr>
+<td>Courses</td>
+<td><select name="crs" size="3" multiple="multiple">
+    <option name="Java">Java</option>
+    <option name=".Net">PHP</option>
+    <option name="Testing">Testing</option>
+</select></td>
+</tr>
+<tr>
+<td>Hobbies</td>
+<td><input type="checkbox" name="hb" value="read" checked>Reading
+    <input type="checkbox" name="hb" value="stamps">Stamp Collection
+    <input type="checkbox" name="hb" value="roaming">Roaming
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type ="submit" value="submit">
+<input type ="reset" value="cancel">
+</tr>
+</table>
+</form>
